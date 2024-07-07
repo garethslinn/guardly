@@ -35,7 +35,7 @@ See the RUNBOOK file for details.
 Import the library into your project:
 
 ```javascript
-const {
+import {
     escapeHTML,
     sanitiseHTML,
     generateCSRFToken,
@@ -53,7 +53,7 @@ const {
     validateHTTPMethod,
     sanitiseHeader,
     sanitiseXML
-} = require('guardly');
+} from 'guardly';
 ```
 
 ## Examples
