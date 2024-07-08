@@ -172,7 +172,7 @@ To run the tests for Guardly, use the following command:
 npm test
 ```
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # guardly

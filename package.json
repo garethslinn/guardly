@@ -1,6 +1,6 @@
 {
   "name": "guardly",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Security helper methods for front-end development",
   "main": "dist/index.js",
   "scripts": {
