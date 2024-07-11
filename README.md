@@ -35,11 +35,11 @@ See the RUNBOOK file for details.
 Import the library into your project:
 
 ```javascript
-import {
-    escapeHTML,
-    sanitiseHTML,
+const {
+    validateCommand,
     generateCSRFToken,
-    setCSRFToken,
+    escapeHTML,
+    escapeSQL,
     enforceHTTPS,
     validateSSLCertificate,
     addSRItoCDNScript,
@@ -47,13 +47,13 @@ import {
     isValidInput,
     sanitiseInput,
     escapeLDAP,
-    escapeSQL,
     sanitiseParameters,
-    validateCommand,
     validateHTTPMethod,
     sanitiseHeader,
-    sanitiseXML
-} from 'guardly';
+    sanitiseXML,
+    setCSRFToken,
+    sanitiseHTML
+} = require('guardly');
 ```
 
 ## Examples

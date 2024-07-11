@@ -1,17 +1,17 @@
 {
   "name": "guardly",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Security helper methods for front-end development",
   "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "start": "node dist/index.js",
-    "test": "jest",
-    "minify": "uglifyjs dist/index.js -o dist/index.js",
-    "dist": "npm run build && npm run minify",
-    "prepublishOnly": "npm run dist"
-  },
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc --watch",
+      "start": "node dist/index.js",
+      "test": "jest",
+      "minify": "uglifyjs dist/index.js -o dist/index.js",
+      "dist": "npm run build && npm run minify",
+      "prepublishOnly": "npm run dist"
+    },
   "devDependencies": {
     "jest": "^29.7.0",
     "uglify-js": "^3.18.0",
